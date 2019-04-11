@@ -1,3 +1,7 @@
+2.6.2
+
+- Correção na serialização da transação gerada através de débito em conta
+
 2.6.1
 
 - Correção na serialização da transação
