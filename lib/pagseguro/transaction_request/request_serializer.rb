@@ -125,6 +125,7 @@ module PagSeguro
 
         params[:shippingType] = shipping.type_id
         params[:shippingCost] = to_amount(shipping.cost)
+        params[:shippingAddressRequired] = shipping.address_required
 
         serialize_shipping_address(shipping.address)
       end

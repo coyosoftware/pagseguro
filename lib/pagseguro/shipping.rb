@@ -25,6 +25,9 @@ module PagSeguro
     # Set the shipping cost.
     attr_accessor :cost
 
+    # Set the address requiredness
+    attr_accessor :address_required
+
     # Set the shipping address info.
     def address=(address)
       @address = ensure_type(Address, address)
